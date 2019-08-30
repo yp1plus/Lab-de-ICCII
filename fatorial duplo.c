@@ -6,7 +6,7 @@
 // A funcao abaixo retorna um valor inteiro, que e o resultado do fatorial duplo do valor inteiro n.
 int fat_d(int n) {
 	// Se n for par, a funcao tranforma o valor em impar.
-    if (!n%2)
+    if (!(n%2))
         n--;
 	// Se n for igual a 1, a funcao retorna 1 sem fazer nada.
     if (n==1)
